@@ -1,0 +1,17 @@
+package api.endpoints;
+
+public class Routes {
+	
+	public static String base_url="https://petstore.swagger.io/v2";
+	//static because you can access the variable directly by using the class name and need
+	//not create an object
+	
+	public static String create_user_url=base_url+"/user";
+	
+	public static String get_user_url=base_url+"/user/{username}";
+	
+	public static String update_user_url=base_url+"/user/{username}";
+	
+	public static String delete_user_url=base_url+"/user/{username}";
+
+}
